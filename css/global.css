@@ -1,0 +1,88 @@
+/* ----------------classes----------------------- */
+.background{
+    background-color: rgb(1, 180, 1);
+}
+.content{
+    font-size: 1.5em;
+    color: white;
+    padding: 10px;
+    min-width: 40%;
+    max-width: 40%;
+    float:left;
+    margin: 20px;
+    border-top-right-radius: 25px;
+}
+.picture{
+    float: left;
+    padding: 10px;
+    margin: 20px;
+}
+.titles{
+    border-radius: 30px;
+    border: solid black 3px;
+    text-align: center;
+    color: white;
+}
+
+.contactbout{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+/* ------------------tags-------------------- */
+nav{
+    background-color: rgb(139, 48, 224);
+    border-radius: 20px;
+    border: solid black 3px;
+    color: white;
+    text-align: center;
+}
+nav ul li{
+display: inline;
+text-decoration: none;
+}
+nav a{
+    color: white;
+    padding: 10px;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+/* --------------------id-------------------- */
+#centerbox{
+float: left;
+margin: 0%;
+text-align: center;
+border: solid 10px rgb(1, 180, 1);
+margin-top: 20px;
+
+}
+#header{
+
+}
+
+#leftbox {
+min-width: 30%;
+max-width: 40%;
+float: left; 
+margin-right: 20px;
+min-height: 400px;
+margin-top: 20px;
+border-top-right-radius: 25px;
+
+}
+#rightbox{
+min-width: 20%;
+max-width: 30%;
+float: left;
+min-height: 400px;
+margin-left: 20px;
+margin-top: 20px;
+border-top-left-radius: 25px;
+
+}
